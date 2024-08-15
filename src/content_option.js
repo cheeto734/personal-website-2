@@ -17,7 +17,7 @@ const introdata = {
   },
   description:
     "A dedicated individual who is constantly working on side projects, seeking growth opportunity, building, and breaking stuff",
-  your_img_url: "headshot.jpg",
+  your_img_url: process.env.PUBLIC_URL + "/headshot.jpg",
 };
 
 const dataabout = {
@@ -174,7 +174,7 @@ const dataportfolio = [
 const hobby = [
   {
     name: "Certificates",
-    img: ["images/ccertificate.png", "images/sqlcertificate.png", "images/vuecertificate.png"],
+    img: ["images/certificate.png", "images/sqlcertificate.png", "images/vuecertificate.png"],
     description:
       "These are the certificates I have received from taking online courses/certificates of completion",
   },
@@ -276,6 +276,15 @@ const courses = [
   "EECS 183- Elementary Programming Concepts",
 ];
 
+const certificates = [
+  {
+    img: ["images/certificate.png", "images/sqlcertificate.png", "images/vuecertificate.png"],
+    description:
+      "These are the certificates I have received from taking online courses/certificates of completion",
+  },
+];
+
+
 const education = [
   {
     school: "University of Michigan, Ann Arbor",
@@ -307,5 +316,6 @@ export {
   hobby,
   work,
   courses,
+  certificates,
   education,
 };

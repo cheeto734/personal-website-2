@@ -12,6 +12,7 @@ import { Education } from "../pages/education";
 import { Work } from "../pages/work";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { Certificates } from "../pages/certificates";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -29,6 +30,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/certificates" element={<Certificates />} />
         <Route path="/freetime" element={<Hobby />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/education" element={<Education />} />
