@@ -156,7 +156,7 @@ const dataportfolio = [
   {
     img: "images/snake.png",
     description:
-      "Made a Snake game using PyGame ",
+      "Made a Snake game using PyGame",
   },
 
   {
@@ -168,16 +168,15 @@ const dataportfolio = [
     img: "images/gswork.gif",
     description:
       "Created a WebAPI and Mobile Version for revamped Gold Star Mortgage Website"
+  },
+  {
+    img: "images/notes.jpg",
+    description:
+      "Created a note taking app, where users can login, save their notes, add + delete notes, and see stats"
   }
 ];
 
 const hobby = [
-  {
-    name: "Certificates",
-    img: ["images/certificate.png", "images/sqlcertificate.png", "images/vuecertificate.png"],
-    description:
-      "These are the certificates I have received from taking online courses/certificates of completion",
-  },
   {
     name: "Violin",
     description:
@@ -215,7 +214,7 @@ const work = [
       "Applied data analysis skills to evaluate and approve mortgage applications, ensuring sound financial decisions.",
       "Contributed to boosting the local economy and helped community members achieve their dream of homeownership.",
     ],
-    img: ["/images/goldstar.jpg", "/images/me_goldstar.jpg"],
+    img: ["images/goldstar.jpg", "images/me_goldstar.jpg"],
   },
   {
     company: "ColorPhi",
